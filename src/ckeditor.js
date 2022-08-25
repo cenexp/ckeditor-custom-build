@@ -150,6 +150,9 @@ Editor.defaultConfig = {
 		],
 		shouldNotGroupWhenFull: true
 	},
+	math: {
+		engine: 'katex',
+	},
 	language: 'es',
 	table: {
 		contentToolbar: [
