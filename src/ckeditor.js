@@ -152,9 +152,8 @@ Editor.defaultConfig = {
 	},
 	math: {
 		engine: 'katex',
-		katexRenderOptions: {
-			output: 'html'
-		}
+		outputType: 'span',
+		enablePreview: true,
 	},
 	language: 'es',
 	table: {
