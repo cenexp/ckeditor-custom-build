@@ -49,6 +49,7 @@ import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
 import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount.js';
 import EditorWatchdog from '@ckeditor/ckeditor5-watchdog/src/editorwatchdog.js';
+import Mathematics from 'ckeditor5-math/src/math';
 
 class Editor extends ClassicEditor {}
 
@@ -98,7 +99,8 @@ Editor.builtinPlugins = [
 	TextTransformation,
 	TodoList,
 	Underline,
-	WordCount
+	WordCount,
+	Mathematics
 ];
 
 // Editor configuration.
@@ -143,7 +145,8 @@ Editor.defaultConfig = {
 			'fontColor',
 			'|',
 			'htmlEmbed',
-			'sourceEditing'
+			'sourceEditing',
+			'math'
 		],
 		shouldNotGroupWhenFull: true
 	},
