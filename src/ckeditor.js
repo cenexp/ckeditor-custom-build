@@ -10,6 +10,7 @@ import Base64UploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/base64u
 import BlockQuote from '@ckeditor/ckeditor5-block-quote/src/blockquote.js';
 import Bold from '@ckeditor/ckeditor5-basic-styles/src/bold.js';
 import Code from '@ckeditor/ckeditor5-basic-styles/src/code.js';
+import AutoImage from '@ckeditor/ckeditor5-image/src/autoimage.js';
 import CodeBlock from '@ckeditor/ckeditor5-code-block/src/codeblock.js';
 import Essentials from '@ckeditor/ckeditor5-essentials/src/essentials.js';
 import FontBackgroundColor from '@ckeditor/ckeditor5-font/src/fontbackgroundcolor.js';
@@ -58,6 +59,7 @@ Editor.builtinPlugins = [
 	Alignment,
 	Autoformat,
 	Autosave,
+	AutoImage,
 	Base64UploadAdapter,
 	BlockQuote,
 	Bold,
@@ -124,6 +126,7 @@ Editor.defaultConfig = {
 			'blockQuote',
 			'insertTable',
 			'mediaEmbed',
+			'uploadImage',
 			'undo',
 			'redo',
 			'|',
