@@ -126,7 +126,6 @@ Editor.defaultConfig = {
 			'blockQuote',
 			'insertTable',
 			'mediaEmbed',
-			'uploadImage',
 			'|',
 			'undo',
 			'redo',
