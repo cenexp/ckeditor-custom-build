@@ -51,6 +51,8 @@ import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
 import WordCount from '@ckeditor/ckeditor5-word-count/src/wordcount.js';
 import EditorWatchdog from '@ckeditor/ckeditor5-watchdog/src/editorwatchdog.js';
 import Mathematics from 'ckeditor5-math/src/math';
+import Image from '@ckeditor/ckeditor5-image/src/image.js';
+import ImageUpload from '@ckeditor/ckeditor5-image/src/imageupload.js';
 
 class Editor extends ClassicEditor {}
 
@@ -61,6 +63,8 @@ Editor.builtinPlugins = [
 	Autosave,
 	AutoImage,
 	Base64UploadAdapter,
+	Image,
+	ImageUpload,
 	BlockQuote,
 	Bold,
 	Code,
@@ -126,6 +130,7 @@ Editor.defaultConfig = {
 			'blockQuote',
 			'insertTable',
 			'mediaEmbed',
+			'imageUpload',
 			'|',
 			'undo',
 			'redo',

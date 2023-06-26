@@ -74,11 +74,11 @@ Not yet, but it these integrations will be available at some point in the future
 #### CKEditor Updates
 
 ```
-$ npm build
+$ npm run build
 $ # save build results changes in github
 ```
 
-
+You can check `sample/index.hml` to see a preview
 
 
 
