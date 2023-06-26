@@ -127,6 +127,7 @@ Editor.defaultConfig = {
 			'insertTable',
 			'mediaEmbed',
 			'uploadImage',
+			'|',
 			'undo',
 			'redo',
 			'|',
